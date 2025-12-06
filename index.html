@@ -5,11 +5,6 @@
   <title>CJP Legal Associates – Legal Camp</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Optional: preload hero image for faster first paint -->
-  <!--
-  <link rel="preload" as="image" href="assets/legal/hero-supreme-court-lawyers.webp" />
-  -->
-
   <!-- Elegant serif + clean sans -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Nunito+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 
@@ -75,7 +70,7 @@
       inset: 0;
       background-image:
         linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.95)),
-        url("assets/legal/hero-supreme-court-lawyers.webp");
+        url("assets/legal/hero-supreme-court-lawyers.jpg");
       background-size: cover;
       background-position: center bottom;
       filter: grayscale(0.35) contrast(1.05);
@@ -154,7 +149,6 @@
       white-space: nowrap;
     }
 
-    /* Nav stone icon */
     .nav-stone {
       width: 42px;
       height: 42px;
@@ -609,15 +603,15 @@
     }
 
     .story-visual.courtroom {
-      background-image: url("assets/legal/story-courtroom-group.webp");
+      background-image: url("assets/legal/story-courtroom-group.jpg");
     }
 
     .story-visual.table {
-      background-image: url("assets/legal/story-consult-table.webp");
+      background-image: url("assets/legal/story-consult-table.jpg");
     }
 
     .story-visual.files {
-      background-image: url("assets/legal/story-case-files-group.webp");
+      background-image: url("assets/legal/story-case-files-group.jpg");
     }
 
     .story-visual::after {
@@ -678,19 +672,19 @@
     }
 
     .mood-thumb.consult-desk {
-      background-image: url("assets/legal/mood-consult-desk.webp");
+      background-image: url("assets/legal/mood-consult-desk.jpg");
     }
 
     .mood-thumb.client-meet {
-      background-image: url("assets/legal/mood-client-meet.webp");
+      background-image: url("assets/legal/mood-client-meet.jpg");
     }
 
     .mood-thumb.case-flow {
-      background-image: url("assets/legal/mood-case-flow-map.webp");
+      background-image: url("assets/legal/mood-case-flow-map.jpg");
     }
 
     .mood-thumb.documents {
-      background-image: url("assets/legal/mood-documents.webp");
+      background-image: url("assets/legal/mood-documents.jpg");
     }
 
     .mood-label {
@@ -1180,7 +1174,7 @@
         const tabPill = btn.closest(".tab-pill");
         const tabType = tabPill ? tabPill.dataset.tab : "consultation";
 
-        const base = "https://wa.me/917010916008";
+        const base = "https://wa.me/917010916008"; // +91 7010916008
 
         const messages = {
           consultation:
